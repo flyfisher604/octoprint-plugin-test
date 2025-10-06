@@ -5,3 +5,9 @@ plugin:
   author: Your Name
   license: AGPLv3
   pythoncompat: ">=3.7,<4"
+templates:
+  settings:
+    - surfacemapper_settings.jinja2
+assets:
+  js:
+    - js/surfacemapper.js

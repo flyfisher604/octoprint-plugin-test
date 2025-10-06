@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "OctoPrint Plugin Dev",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/venv/Scripts/octoprint.exe",
+      "args": ["serve", "--host=127.0.0.1", "--port=5000"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

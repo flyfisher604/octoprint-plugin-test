@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+OctoPrint_SurfaceMapper.egg-info/PKG-INFO
+OctoPrint_SurfaceMapper.egg-info/SOURCES.txt
+OctoPrint_SurfaceMapper.egg-info/dependency_links.txt
+OctoPrint_SurfaceMapper.egg-info/entry_points.txt
+OctoPrint_SurfaceMapper.egg-info/top_level.txt
+octoprint_surfacemapper/__init__.py
+octoprint_surfacemapper/plugin.py
+octoprint_surfacemapper/plugin.yaml

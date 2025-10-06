@@ -6,4 +6,14 @@ class SurfaceMapperPlugin(
     octoprint.plugin.TemplatePlugin,
     octoprint.plugin.AssetPlugin
 ):
-    pass
+    def get_template_configs(self):
+        return [
+            dict(type="settings", custom_bindings=False)
+        ]
+
+    def get_assets(self):
+        return {
+            "js": ["js/surfacemapper.js"],
+            "css": [],
+            "less": []
+        }
