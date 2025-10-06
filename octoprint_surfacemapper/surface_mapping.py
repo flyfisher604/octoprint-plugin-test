@@ -50,6 +50,7 @@ class SurfaceMapping:
             next_Zt = last_actual[1] + tangent[1] * step / math.hypot(*tangent)
             current = (next_Xt, next_Zt, next_B)
             prev_B = next_B
+            
     def probe_and_record(self, tip_coords, X0, Z0, R):
         """
         Move to retract position, probe, and record contact if successful.

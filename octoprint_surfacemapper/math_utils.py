@@ -4,6 +4,7 @@ def angle_delta(B1, B2):
     if delta > math.pi:
         delta -= 2 * math.pi
     return abs(delta)
+
 def compute_tangent_and_normal(pt1, pt2):
     """Given two probe points (Xt, Zt), compute tangent and normal vectors."""
     dx = pt2[0] - pt1[0]
