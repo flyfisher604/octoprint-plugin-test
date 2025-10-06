@@ -1,1 +1,1 @@
-# OctoPrint Plugin Test 
+Minimal OctoPrint plugin scaffold for SurfaceMapper.

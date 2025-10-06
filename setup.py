@@ -4,7 +4,7 @@ setup(
     name="OctoPrint-SurfaceMapper",
     version="0.1.0",
     author="Your Name",
-    description="An OctoPrint plugin for surface mapping.",
+        description="Minimal OctoPrint plugin scaffold.",
     packages=["octoprint_surfacemapper"],
     entry_points={
         "octoprint.plugin": [

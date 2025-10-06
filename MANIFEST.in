@@ -1,0 +1,2 @@
+include octoprint_surfacemapper/plugin.yaml
+include LICENSE

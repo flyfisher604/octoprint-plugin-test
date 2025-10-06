@@ -1,0 +1,7 @@
+plugin:
+  name: SurfaceMapper
+  version: 0.1.0
+  description: Minimal OctoPrint plugin scaffold
+  author: Your Name
+  license: AGPLv3
+  pythoncompat: ">=3.7,<4"
